@@ -1,5 +1,5 @@
-from shared.uuid import UuidGenerator
-from domain.post import Post
+from shared.uuid.uuid import UuidGenerator
+from domain.post.post import Post
 
 class User(UuidGenerator):
   def __init__(self,name,user_name,birthday,email,password,following=None,followers=None, posts: Post=None):
